@@ -98,13 +98,48 @@ Here i just opened Text editor for testing purpose ,it can be anywhere on the pc
 
 https://github.com/user-attachments/assets/83166b45-fe04-42d0-bb81-639a13d75818
 
+## Troubleshooting PyInstaller Installation
 
+If you see the error `'pyinstaller' is not recognized as an internal or external command`, follow these steps:
 
+1. Install `PyInstaller` using the following command:
+   ```bash
+   pip install pyinstaller
+   ```
 
+2. If the error persists, make sure your Python `Scripts` directory is added to the system `PATH`. Here's how to add it:
 
-Disclaimer
-This software is for educational purposes only. Unauthorized use or distribution of this program may violate applicable laws.
+   - Find your Python Scripts folder (usually in `C:\Users\<YourUsername>\AppData\Local\Programs\Python\PythonXY\Scripts`).
+   - Add it to the system `PATH` environment variable.
 
+3. **Add Python Scripts to the System Path (if needed):**
+   If you still get the error after installing `PyInstaller`, the Python scripts folder might not be added to your system's PATH.
+
+   - Find the location of your Python installation. For example, it’s often located in `C:\Users\<YourUsername>\AppData\Local\Programs\Python\PythonXY\Scripts` on Windows (where `XY` is your Python version, like `39` for Python 3.9).
+   - Copy the path to the `Scripts` folder.
+   - To add this to your PATH on Windows, follow these steps:
+     1. Right-click on **This PC** or **My Computer** and select **Properties**.
+     2. Click on **Advanced system settings** on the left panel.
+     3. Click on the **Environment Variables** button.
+     4. Under **System variables**, find and select the **Path** variable, then click **Edit**.
+     5. In the **Edit Environment Variable** window, click **New** and paste the copied path (e.g., `C:\Users\<YourUsername>\AppData\Local\Programs\Python\PythonXY\Scripts`).
+     6. Click **OK** to save the changes.
+
+4. **Restart Your Command Prompt:**
+   After adding the path to your environment variables, restart your command prompt or terminal to apply the changes.
+
+5. **Test Again:**
+   Now try running the `pyinstaller` command again:
+
+   ```bash
+   pyinstaller --onefile --noconsole keylogger.py
+   ```
+
+   It should work without the `'pyinstaller' is not recognized as an internal or external command` error.
+
+# DISCLAIMER
+
+**IMPORTANT**: This project is intended for educational purposes only. Misuse of the code for unauthorized access to computer systems, accounts, or networks is illegal and unethical. By using this project, you agree that you are solely responsible for your actions and that the author is not liable for any legal consequences.
 
 
 
