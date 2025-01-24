@@ -1,3 +1,6 @@
+
+
+
 # KeyLoggerPlus--EmailAndPassword
 This project is a Windows keylogger script written in Python that logs keystrokes, detects sensitive information like email addresses and potential passwords, and stores them in a text file. The script can be converted to an executable and set to auto-start on boot for background logging. It’s for educational purposes only.
 ## Features
@@ -87,6 +90,13 @@ To make the keylogger start automatically when Windows boots:
      ```bash
      pip install -r requirements.txt
      ```
+     
+Working:
+Here i just opened Text editor for testing purpose ,it can be anywhere on the pc if someone types anything it will get recoreded and if its email and passowrd it will get tagged in most cases.
+https://github.com/user-attachments/assets/81fe4d83-d9f0-46fa-b45d-814995eade4a
+
+
+
 
 Disclaimer
 This software is for educational purposes only. Unauthorized use or distribution of this program may violate applicable laws.
