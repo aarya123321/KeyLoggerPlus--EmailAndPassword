@@ -88,6 +88,9 @@ To make the keylogger start automatically when Windows boots:
      pip install -r requirements.txt
      ```
 
+Disclaimer
+This software is for educational purposes only. Unauthorized use or distribution of this program may violate applicable laws.
+
 
 
 
