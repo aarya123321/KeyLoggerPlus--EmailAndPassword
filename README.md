@@ -93,7 +93,11 @@ To make the keylogger start automatically when Windows boots:
      
 Working:
 Here i just opened Text editor for testing purpose ,it can be anywhere on the pc if someone types anything it will get recoreded and if its email and passowrd it will get tagged in most cases.
-https://github.com/user-attachments/assets/81fe4d83-d9f0-46fa-b45d-814995eade4a
+
+![image](https://github.com/user-attachments/assets/2f9e0805-4697-405e-b589-76ead2224332)
+
+https://github.com/user-attachments/assets/83166b45-fe04-42d0-bb81-639a13d75818
+
 
 
 
