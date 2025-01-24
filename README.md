@@ -19,73 +19,11 @@ This project is a Windows keylogger script written in Python that logs keystroke
    ```bash
    pip install pynput pygetwindow
 
-
-
-
-
-
-
-
-
-
-
-
-
-Here’s the **corrected and streamlined guide**, including steps to handle errors with environment variables for auto-start.
-
----
-
-### **1. Directory Structure**
-Here’s the directory structure you should have for the GitHub repository:
-
-```
-Keylogger/
-├── keylogger.py         # The Python script for the keylogger
-├── README.md            # Project documentation
-├── LICENSE              # License file (optional)
-├── requirements.txt     # Python dependencies
-└── screenshots/         # (Optional) Demo images
-    ├── demo1.png
-    ├── demo2.png
-```
-
----
-
-### **2. README File**
-Your `README.md` file should explain the project. Here’s a detailed example:
-
-```markdown
-# Windows Keylogger
-
-This is a Python-based Windows keylogger designed for educational purposes. It logs keystrokes and identifies sensitive information like email addresses and potential passwords using pattern matching. The keylogger runs in the background and can optionally be converted into an executable that runs on system startup.
-
----
-
-## Features
-
-- Logs keystrokes to a file located at:
-  - `C:\Users\<username>\Documents\Keylogs.txt`
-- Automatically differentiates:
-  - **Email addresses**
-  - **Potential passwords**
-- Can be converted into an `.exe` file for easier deployment.
-- Option to auto-start on system boot.
-
----
-
-## Prerequisites
-
-1. Install **Python 3.x** on your system.
-2. Install required Python libraries using the following command:
-   ```bash
-   pip install pynput pygetwindow
    ```
 3. Install **PyInstaller** to convert the script into an `.exe` file (optional):
    ```bash
    pip install pyinstaller
    ```
-
----
 
 ## Steps to Run
 
